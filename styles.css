@@ -6,23 +6,44 @@ body {
 }
 
 .HEADER {
-    background-color: #f5f3f5;
-    padding: 20px 0;
+    background-color: #1c1c4f;
+    padding: 1rem;
     text-align: center;
 }
 
-.HEADER h1, .HEADER a {
+.HEADER h1 {
     margin: 0;
-    color: #4b4a4b;
-    text-decoration: none;
 }
 
 .HEADER a {
-    margin: 0 15px;
-    font-size: 18px;
+    color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 1rem;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
-.HEADER a:hover { color: #d5d3d5; }
+.HEADER a:hover {
+    color: #1c1c4f;
+    background-color: #dcdcdc;
+    border-color: #dcdcdc;
+}
+
+.HEADER a.active {
+    color: #1c1c4f;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+.HEADER a.active:hover {
+    background-color: #d0d0d0;
+    border-color: #d0d0d0;
+}
 
 .home1, .home2, .home3, .user1, .user2, .user3, .contact1 {
     text-align: center;
