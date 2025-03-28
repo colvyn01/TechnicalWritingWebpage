@@ -46,59 +46,32 @@ body {
     border-color: #d0d0d0;
 }
 
-.user1, .user2, .user3 {
-    text-align: center;
-    padding: 50px 20px;
+.faq2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
     color: #1c1c4f;
 }
 
-.user1 h1 {
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.user2 h2 {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1.5rem;
-}
-
-.user3 h2 {
-    font-size: 1.5rem;
-}
-
-.user3 ol {
-    font-size: 1.2rem;
-    width: 50%;
-    margin-left: 25%;
+.faq2 p {
+    background-color: #f5f3f5;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(88, 88, 88);
+    margin: 20px auto;
+    padding: 15px;
     text-align: left;
 }
 
-.user-img1 {
+.faq-img-container {
     width: 100%;
-    max-width: 20%;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
-    border-color: rgb(88, 88, 88);
+    height: 400px;
+    overflow: hidden;
 }
 
-.user-img2 {
+.faq-img1 {
     width: 100%;
-    max-width: 25%;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
-    border-color: rgb(88, 88, 88);
-}
-
-.user-img3 {
-    width: 100%;
-    max-width: 17.5%;
-
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 40%;
 }

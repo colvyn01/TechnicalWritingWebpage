@@ -4,6 +4,7 @@ body {
     font-family: 'Outfit', sans-serif;
     background-color: #f1f1f1;
     margin: 0;
+    
 }
 
 .HEADER {
@@ -46,59 +47,41 @@ body {
     border-color: #d0d0d0;
 }
 
-.user1, .user2, .user3 {
+.support1 {
+    max-width: 800px;
+    margin: 40px auto;
     text-align: center;
-    padding: 50px 20px;
+    
+}
+
+.support1-1 {
+    padding: 0;
+    list-style: none;
     color: #1c1c4f;
 }
 
-.user1 h1 {
-    font-size: 2rem;
-    font-weight: 600;
+.support1-1 > li { margin: 30px 0; }
+
+.support1-1 > li > strong {
+    display: block;
+    font-size: 1.3em;
+    color: #1c1c4f;
+    margin-bottom: 15px;
+    
 }
 
-.user2 h2 {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1.5rem;
+.support1-2 {
+    border-radius: 8px;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: rgb(88, 88, 88);
+    padding: 15px;
+    max-width: 600px;
+    list-style: disc inside;
 }
 
-.user3 h2 {
-    font-size: 1.5rem;
-}
-
-.user3 ol {
-    font-size: 1.2rem;
-    width: 50%;
-    margin-left: 25%;
+.support1-2 li {
+    line-height: 1.6;
+    padding: 8px 0;
     text-align: left;
-}
-
-.user-img1 {
-    width: 100%;
-    max-width: 20%;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
-    border-color: rgb(88, 88, 88);
-}
-
-.user-img2 {
-    width: 100%;
-    max-width: 25%;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
-    border-color: rgb(88, 88, 88);
-}
-
-.user-img3 {
-    width: 100%;
-    max-width: 17.5%;
-
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
 }
