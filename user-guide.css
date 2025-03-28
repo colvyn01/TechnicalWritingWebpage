@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+.HEADER {
+    background-color: #1c1c4f;
+    padding: 1rem;
+    text-align: center;
+}
+
+.HEADER h1 {
+    margin: 0;
+}
+
+.HEADER a {
+    color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 1rem;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.HEADER a:hover {
+    color: #1c1c4f;
+    background-color: #dcdcdc;
+    border-color: #dcdcdc;
+}
+
+.HEADER a.active {
+    color: #1c1c4f;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+.HEADER a.active:hover {
+    background-color: #d0d0d0;
+    border-color: #d0d0d0;
+}
+
+.user1, .user2, .user3 {
+    text-align: center;
+    padding: 50px 20px;
+    color: #1c1c4f;
+}
+
+.user1 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.user2 h2 {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.user3 h2 {
+    font-size: 1.5rem;
+}
+
+.user3 ol {
+    font-size: 1.2rem;
+    width: 50%;
+    margin-left: 25%;
+    text-align: left;
+}
+
+.user-img1 {
+    width: 100%;
+    max-width: 20%;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.user-img2 {
+    width: 100%;
+    max-width: 25%;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.user-img3 {
+    width: 100%;
+    max-width: 17.5%;
+
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}

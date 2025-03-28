@@ -45,6 +45,17 @@ body {
     border-color: #d0d0d0;
 }
 
+
+
+
+
+
+.contact1 h3 {
+    font-size: 24px;
+    color: #4b4a4b;
+    margin-bottom: 20px;
+}
+
 .faq2, .support1 {
     max-width: 1000px;
     margin: 0 auto;
